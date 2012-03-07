@@ -58,7 +58,7 @@
             android:defaultValue="@string/voice_mode_main" />
     </PreferenceCategory>
     <PreferenceCategory
-	android:title="@string/ned_catagory"
+	android:title="@sting/ned_catagory"
 	android:key="ned_settings">
 	<CheckBoxPreference
 		android:key="volume_cursor"

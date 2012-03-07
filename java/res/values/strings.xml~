@@ -347,7 +347,7 @@
     <!-- Title of the settings for keypress sound volume -->
     <string name="prefs_keypress_sound_volume_settings">Keypress sound volume settings</string>
     <!-- Add ability to use volume rocker as cursur while typing -->
-    <string name="ned_catagory">Neds Keyboard Options</string>
+    <string name="ned_catagory">Ned's Keyboard Options</string>
     <string name="prefs_volume_cursor">Volume as Cursor</string>
     <string name="prefs_volume_cursor_summary">While typing (keyboard is up) the volume will move the cursor up or down.</string>
 

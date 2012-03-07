@@ -1116,7 +1116,7 @@ public class LatinIME extends InputMethodServiceCompatWrapper implements Keyboar
     case KeyEvent.KEYCODE_VOLUME_UP:
     case KeyEvent.KEYCODE_VOLUME_DOWN:                              
 	if (mKeyboardSwitcher.isInputViewShown() && mSettingsValues.mEnableVolumeCursor) {
-	    sendDownUpKeyEvents((keyCode == KeyEvent.KEYCODE_VOLUME_UP ? KeyEvent.KEYCODE_DPAD_RIGHT
+	    sendDownUpKeyEvents((keycode == KeyEvent.KEYCODE_VOLUME_UP ? KeyEvent.KEYCODE_DPAD_RIGHT
 		: KeyEvent.KEYCODE_DPAD_LEFT));
 	    return true;
 	}
