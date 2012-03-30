@@ -28,6 +28,10 @@ ifeq ($(TARGET_ARCH), x86)
     TARGETING_UNBUNDLED_FROYO := false
 endif
 
+ifeq ($(TARGET_ARCH),mips)
+    TARGETING_UNBUNDLED_FROYO := false
+endif
+
 ifeq ($(FLAG_DBG), true)
     TARGETING_UNBUNDLED_FROYO := false
 endif
@@ -43,7 +47,7 @@ endif
 
 LOCAL_MODULE := libjni_latinime
 
-LOCAL_MODULE_TAGS := user
+LOCAL_MODULE_TAGS := optional
 
 ifeq ($(FLAG_DO_PROFILE), true)
     $(warning Making profiling version of native library)
